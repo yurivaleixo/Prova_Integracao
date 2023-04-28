@@ -12,7 +12,7 @@ Content-Type: application/json
    "mes" : 2,
    "ano" : 2022,
    "horas" : 1000,
-   "valor" : 50,
+   "valor" : 50
 }
 
 ### Deletar pagamento
