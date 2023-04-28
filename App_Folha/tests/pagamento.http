@@ -1,0 +1,31 @@
+### Listar pagamento
+GET http://localhost:3000/pagamento
+
+### Buscar pagamento por nome
+GET http://localhost:3000/pagamento/50
+
+### Cadastrar pagamento
+POST http://localhost:3000/pagamento
+Content-Type: application/json
+
+{
+   "mes" : 2,
+   "ano" : 2022,
+   "horas" : 1000,
+   "valor" : 50,
+}
+
+### Deletar pagamento
+DELETE http://localhost:3000/pagamento/1
+
+### Alterar pagamento
+PUT http://localhost:3000/pagamento
+Content-Type: application/json
+
+{
+   "id" : 3,
+   "mes" : 5,
+   "ano" : 2022,
+   "horas" : 1000,
+   "valor" : 50,
+}
